@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "capistrano-symfony"
-  gem.version       = '1.0.0.rc3'
+  gem.version       = '1.0.0.rc4'
   gem.authors       = ["Peter Mitchell"]
   gem.email         = ["pete@peterjmit.com"]
   gem.description   = %q{Symfony specific Capistrano tasks}
@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   gem.licenses      = ['MIT']
 
   gem.post_install_message = <<eos
-  test test test 
+  test test test 4
 eos
 
   gem.add_dependency 'capistrano', '~> 3.1'
