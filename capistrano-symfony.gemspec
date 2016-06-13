@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["pete@peterjmit.com"]
   gem.description   = %q{Symfony specific Capistrano tasks}
   gem.summary       = %q{Capistrano Symfony - Easy deployment of Symfony 2 & 3 apps with Ruby over SSH}
-  gem.homepage      = "http://github.com/capistrano/capistrano-symfony"
+  gem.homepage      = "http://github.com/folliked/symfony"
 
   gem.files         = `git ls-files`.split($/)
   # no tests as of yet
@@ -19,14 +19,7 @@ Gem::Specification.new do |gem|
   gem.licenses      = ['MIT']
 
   gem.post_install_message = <<eos
-  WARNING - This gem has switched repositories. This gem is now for the
-  capitrano-symfony plugin located at https://github.com/capistrano/symfony.
-  This package behaves differently from the previous, and the release versions
-  have changed.
-
-  The Big Brains Company and Thomas Tourlourat (@armetiz) kindly agreed to
-  transfer the ownership of this gem over to the Capistrano organization. The
-  previous repository can be found here https://github.com/TheBigBrainsCompany/capistrano-symfony
+  test test test 
 eos
 
   gem.add_dependency 'capistrano', '~> 3.1'
