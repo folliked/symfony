@@ -50,7 +50,7 @@ namespace :symfony do
     on release_roles :all do
       within release_path do
         if test "[ -d #{fetch(:cache_path)} ]"
-          execute :rm, "-rf", symfony_cache_path
+          execute :rm, "-rf", fetch(:cache_path)
         end
         execute :mkdir, "-pv", fetch(:cache_path)
       end
